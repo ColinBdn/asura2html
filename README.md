@@ -16,12 +16,12 @@ Install the Python modules by running `setup.bat` (windows only) or by running `
 Run the python file like this:
 
 ```powershell
-python asura2html.py -f you_asura_file_here.asura
+python asura2html.py -f your_asura_file_here.asura
 ```
 
 You can also specify the number of threads used by the program (default is 4):
 ```powershell
-python asura2html.py -f you_asura_file_here.asura -t 8
+python asura2html.py -f your_asura_file_here.asura -t 8
 ```
 
 */!\ Be carefull, while `more thread = higher speed`, `more thread = higher ram usage`*

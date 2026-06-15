@@ -3,10 +3,10 @@
 ## Description
 
 This tool can convert `.asura` files (from https://asurascans.com) which can only be open in their app to a normal **web format**.  
-This tool will create a folder next to the python file with a bunch of `.html` file corresponding to each chapter.
+It will create a folder next to the python file with a bunch of `.html` file corresponding to each chapter.
 
 To read the **manwha** you just have to open the first `.html` file in the created folder. There's button at the **top** and **bottom** of the page to navigate to the **next** or **previous** chapter.
-
+It works on any web browser (mobile device included)
 
 ## Usage
 

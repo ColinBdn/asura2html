@@ -19,7 +19,7 @@ Run the python file like this:
 python asura2html.py -f you_asura_file_here.asura
 ```
 
-You can also precise the number of thread used by the program:
+You can also precise the number of thread used by the program (default is 2):
 ```powershell
 python asura2html.py -f you_asura_file_here.asura -t 4
 ```

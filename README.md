@@ -1,16 +1,16 @@
-# Asura to html converter
+# Asura to HTML converter
 
 ## Description
 
-This tool can convert `.asura` files (from https://asurascans.com) which can only be open in their app to a normal **web format**.  
-It will create a folder next to the python file with a bunch of `.html` file corresponding to each chapter.
+This tool can convert `.asura` files (from https://asurascans.com) which can only be opened in their app to a normal **web format**.  
+It will create a folder next to the python file with a bunch of `.html` files corresponding to each chapter.
 
 To read the **manwha** you just have to open the first `.html` file in the created folder. There's button at the **top** and **bottom** of the page to navigate to the **next** or **previous** chapter.
 It works on any web browser (mobile device included)
 
 ## Usage
 
-Install the python modules by running `setup.bat` (on windows only) or by running `pip install -r requirements.txt`
+Install the Python modules by running `setup.bat` (on windows only) or by running `pip install -r requirements.txt`
 
 
 Run the python file like this:

@@ -15,12 +15,12 @@ Install the python modules by running `setup.bat` (on windows only) or by runnin
 
 Run the python file like this:
 
-```python
+```powershell
 python asura2html.py -f you_asura_file_here.asura
 ```
 
 You can also precise the number of thread used by the program:
-```python
+```powershell
 python asura2html.py -f you_asura_file_here.asura -t 4
 ```
 

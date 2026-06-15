@@ -237,10 +237,10 @@ class CustomParser(argparse.ArgumentParser):
 
 
 if __name__ == '__main__':
-    # parser = CustomParser(description="Convert .asura file to a folder of .html file corresponding to each chapter")
-    # requiredGroup = parser.add_argument_group("Required arguments")
-    # requiredGroup.add_argument("-f", "--file", dest="input_file", type=str, required=True, help="asura file name")
-    # optionalGroup = parser.add_argument_group("Optional arguments")
-    # optionalGroup.add_argument("-t", "--thread", dest="nb_threads", type=int, required=False, default=4, help="/!\\ more thread = higher speed but higher ram usage")
-    # args = parser.parse_args()
-    main("the-margrave-s-worthless-mage.asura", 1)
+    parser = CustomParser(description="Convert .asura file to a folder of .html file corresponding to each chapter")
+    requiredGroup = parser.add_argument_group("Required arguments")
+    requiredGroup.add_argument("-f", "--file", dest="input_file", type=str, required=True, help="asura file name")
+    optionalGroup = parser.add_argument_group("Optional arguments")
+    optionalGroup.add_argument("-t", "--thread", dest="nb_threads", type=int, required=False, default=4, help="/!\\ more thread = higher speed but higher ram usage")
+    args = parser.parse_args()
+    main(args.input_file, args.nb_threads)

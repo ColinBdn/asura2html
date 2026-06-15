@@ -10,7 +10,7 @@ It works on any web browser (mobile device included)
 
 ## Usage
 
-Install the Python modules by running `setup.bat` (on windows only) or by running `pip install -r requirements.txt`
+Install the Python modules by running `setup.bat` (windows only) or by running `pip install -r requirements.txt`
 
 
 Run the python file like this:

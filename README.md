@@ -24,4 +24,4 @@ You can also precise the number of thread used by the program:
 python asura2html.py -f you_asura_file_here.asura -t 4
 ```
 
-*/!\ Be carefull, while `more thread = higher speed`, `more thread = higher rame usage`*
+*/!\ Be carefull, while `more thread = higher speed`, `more thread = higher ram usage`*
